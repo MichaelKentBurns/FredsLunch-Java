@@ -1,0 +1,527 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_iuFUYH6DEeq6x-HpzU5qww">
+  <modelElement href="FredsLunch%20UML%20Lab.uml#_i3a2kH6DEeq6x-HpzU5qww"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_i60I0H6DEeq6x-HpzU5qww" sourceAnchor="283.0,58.0" targetAnchor="7.0,0.0" target="_i61XAH6DEeq6x-HpzU5qww" source="_i67dkH6DEeq6x-HpzU5qww">
+    <modelElement href="FredsLunch%20UML%20Lab.uml#_i4gbsH6DEeq6x-HpzU5qww"/>
+    <bendpoints xmi:id="_zKspFn6JEeq6x-HpzU5qww" sourceX="111" targetY="-80"/>
+    <nameVisual xmi:id="_i60v4H6DEeq6x-HpzU5qww" text="">
+      <visualProperties xmi:id="_jBc8UH6DEeq6x-HpzU5qww" position="-52.0,1.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_i60v4X6DEeq6x-HpzU5qww" aggregationKind="NONE" name="main" navigable="true">
+      <modelElement href="FredsLunch%20UML%20Lab.uml#_i4LrkH6DEeq6x-HpzU5qww"/>
+      <visualProperties xmi:id="_jBcVQ36DEeq6x-HpzU5qww" position="69.0,25.666666666666657"/>
+      <visibility xmi:id="_i60v5H6DEeq6x-HpzU5qww" label="+"/>
+      <cardinality xmi:id="_i60v436DEeq6x-HpzU5qww" label="1..*" max="-1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_i60v4n6DEeq6x-HpzU5qww" aggregationKind="NONE" name="">
+      <modelElement href="FredsLunch%20UML%20Lab.uml#_i4f0oH6DEeq6x-HpzU5qww"/>
+      <visualProperties xmi:id="_jBc8UX6DEeq6x-HpzU5qww" position="2.0,-54.33333333333334"/>
+      <visibility xmi:id="_i60v5n6DEeq6x-HpzU5qww" label="+"/>
+      <cardinality xmi:id="_i60v5X6DEeq6x-HpzU5qww" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_i61W8H6DEeq6x-HpzU5qww" sourceAnchor="82.0,0.0" targetAnchor="0.0,15.0" target="_i61XAH6DEeq6x-HpzU5qww" source="_i65BUH6DEeq6x-HpzU5qww">
+    <modelElement href="FredsLunch%20UML%20Lab.uml#_i4gbsn6DEeq6x-HpzU5qww"/>
+    <bendpoints xmi:id="_zKspFX6JEeq6x-HpzU5qww" sourceY="-153" targetX="-299"/>
+    <nameVisual xmi:id="_i61W8X6DEeq6x-HpzU5qww" text="">
+      <visualProperties xmi:id="_jBbuNn6DEeq6x-HpzU5qww" position="144.25,-16.99999999999997"/>
+    </nameVisual>
+    <sourceRole xmi:id="_i61W8n6DEeq6x-HpzU5qww" aggregationKind="NONE" name="lunchList" navigable="true">
+      <modelElement href="FredsLunch%20UML%20Lab.uml#_i4MSoH6DEeq6x-HpzU5qww"/>
+      <visualProperties xmi:id="_jBbuNX6DEeq6x-HpzU5qww" position="-63.499999999999986,-69.5"/>
+      <visibility xmi:id="_i61W836DEeq6x-HpzU5qww" label="+"/>
+      <cardinality xmi:id="_i61W9H6DEeq6x-HpzU5qww" label="1..*" max="-1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_i61W9X6DEeq6x-HpzU5qww" aggregationKind="NONE" name="">
+      <modelElement href="FredsLunch%20UML%20Lab.uml#_i4gbsX6DEeq6x-HpzU5qww"/>
+      <visualProperties xmi:id="_jBbuN36DEeq6x-HpzU5qww" position="-32.65625000000006,2.0"/>
+      <visibility xmi:id="_i61W9n6DEeq6x-HpzU5qww" label="+"/>
+      <cardinality xmi:id="_i61W936DEeq6x-HpzU5qww" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_i61W-H6DEeq6x-HpzU5qww" sourceAnchor="47.0,0.0" targetAnchor="19.0,25.0" target="_i61XAH6DEeq6x-HpzU5qww" source="_i6_vAH6DEeq6x-HpzU5qww">
+    <modelElement href="FredsLunch%20UML%20Lab.uml#_i4hCwX6DEeq6x-HpzU5qww"/>
+    <nameVisual xmi:id="_i61W-X6DEeq6x-HpzU5qww" text="">
+      <visualProperties xmi:id="_jBdjYH6DEeq6x-HpzU5qww" position="-13.0,-13.090909090909065"/>
+    </nameVisual>
+    <sourceRole xmi:id="_i61W-n6DEeq6x-HpzU5qww" aggregationKind="NONE" name="memberList" navigable="true">
+      <modelElement href="FredsLunch%20UML%20Lab.uml#_i4MSon6DEeq6x-HpzU5qww"/>
+      <visualProperties xmi:id="_jBc8VX6DEeq6x-HpzU5qww" position="41.0,-42.0"/>
+      <visibility xmi:id="_i61W-36DEeq6x-HpzU5qww" label="+"/>
+      <cardinality xmi:id="_i61W_H6DEeq6x-HpzU5qww" label="1..*" max="-1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_i61W_X6DEeq6x-HpzU5qww" aggregationKind="NONE" name="data">
+      <modelElement href="FredsLunch%20UML%20Lab.uml#_i4hCwH6DEeq6x-HpzU5qww"/>
+      <visualProperties xmi:id="_jBdjYX6DEeq6x-HpzU5qww" position="2.0,28.0"/>
+      <visibility xmi:id="_i61W_n6DEeq6x-HpzU5qww" label="+"/>
+      <cardinality xmi:id="_i61W_36DEeq6x-HpzU5qww" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_i63MIH6DEeq6x-HpzU5qww" sourceAnchor="119.0,71.0" targetAnchor="23.0,0.0" target="_i63zM36DEeq6x-HpzU5qww" source="_i65BUH6DEeq6x-HpzU5qww">
+    <modelElement href="FredsLunch%20UML%20Lab.uml#_i4hp0H6DEeq6x-HpzU5qww"/>
+    <nameVisual xmi:id="_i63MIX6DEeq6x-HpzU5qww" text="">
+      <visualProperties xmi:id="_jBcVQX6DEeq6x-HpzU5qww" position="-18.0,-7.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_i63MIn6DEeq6x-HpzU5qww" aggregationKind="NONE" name="lunchList" navigable="true">
+      <modelElement href="FredsLunch%20UML%20Lab.uml#_i4M5sH6DEeq6x-HpzU5qww"/>
+      <visualProperties xmi:id="_jBcVQH6DEeq6x-HpzU5qww" position="-103.0,1.0"/>
+      <visibility xmi:id="_i63zMH6DEeq6x-HpzU5qww" label="+"/>
+      <cardinality xmi:id="_i63MJH6DEeq6x-HpzU5qww" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_i63MI36DEeq6x-HpzU5qww" aggregationKind="NONE" name="">
+      <modelElement href="FredsLunch%20UML%20Lab.uml#_i4hp0X6DEeq6x-HpzU5qww"/>
+      <visualProperties xmi:id="_jBcVQn6DEeq6x-HpzU5qww" position="2.0,-44.0"/>
+      <visibility xmi:id="_i63zMn6DEeq6x-HpzU5qww" label="+"/>
+      <cardinality xmi:id="_i63zMX6DEeq6x-HpzU5qww" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_i69SwH6DEeq6x-HpzU5qww" sourceAnchor="184.0,35.0" targetAnchor="29.0,0.0" target="_i6-g4H6DEeq6x-HpzU5qww" source="_i6_vAH6DEeq6x-HpzU5qww">
+    <modelElement href="FredsLunch%20UML%20Lab.uml#_i4iQ4H6DEeq6x-HpzU5qww"/>
+    <bendpoints xmi:id="_zKspE36JEeq6x-HpzU5qww" sourceX="138" targetY="-62"/>
+    <nameVisual xmi:id="_i6950H6DEeq6x-HpzU5qww" text="">
+      <visualProperties xmi:id="_jBdjY36DEeq6x-HpzU5qww" position="-17.0,41.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_i6950X6DEeq6x-HpzU5qww" aggregationKind="NONE" name="memberList" navigable="true">
+      <modelElement href="FredsLunch%20UML%20Lab.uml#_i4XRwH6DEeq6x-HpzU5qww"/>
+      <visualProperties xmi:id="_jBdjYn6DEeq6x-HpzU5qww" position="21.0,-43.0"/>
+      <visibility xmi:id="_i6951H6DEeq6x-HpzU5qww" label="+"/>
+      <cardinality xmi:id="_i695036DEeq6x-HpzU5qww" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_i6950n6DEeq6x-HpzU5qww" aggregationKind="NONE" name="members">
+      <modelElement href="FredsLunch%20UML%20Lab.uml#_i4iQ4X6DEeq6x-HpzU5qww"/>
+      <visualProperties xmi:id="_jBdjZH6DEeq6x-HpzU5qww" position="2.0,-49.0"/>
+      <visibility xmi:id="_i6951n6DEeq6x-HpzU5qww" label="+"/>
+      <cardinality xmi:id="_i6951X6DEeq6x-HpzU5qww" label="1..*" max="-1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_i695136DEeq6x-HpzU5qww" sourceAnchor="179.0,35.0" targetAnchor="29.0,25.0" target="_i6-g4H6DEeq6x-HpzU5qww" source="_i7BkMH6DEeq6x-HpzU5qww">
+    <modelElement href="FredsLunch%20UML%20Lab.uml#_i4iQ436DEeq6x-HpzU5qww"/>
+    <bendpoints xmi:id="_zKspEH6JEeq6x-HpzU5qww" sourceX="261" targetY="23"/>
+    <nameVisual xmi:id="_i6952H6DEeq6x-HpzU5qww" text="">
+      <visualProperties xmi:id="_jBeKcH6DEeq6x-HpzU5qww" position="2.0,-18.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_i6952X6DEeq6x-HpzU5qww" aggregationKind="NONE" name="participant" navigable="true">
+      <modelElement href="FredsLunch%20UML%20Lab.uml#_i4X40H6DEeq6x-HpzU5qww"/>
+      <visualProperties xmi:id="_jBdjZX6DEeq6x-HpzU5qww" position="1.0,-82.0"/>
+      <visibility xmi:id="_i6952n6DEeq6x-HpzU5qww" label="+"/>
+      <cardinality xmi:id="_i695236DEeq6x-HpzU5qww" label="1..*" max="-1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_i6953H6DEeq6x-HpzU5qww" aggregationKind="NONE" name="">
+      <modelElement href="FredsLunch%20UML%20Lab.uml#_i4iQ4n6DEeq6x-HpzU5qww"/>
+      <visualProperties xmi:id="_jBeKcX6DEeq6x-HpzU5qww" position="-55.0,-4.0"/>
+      <visibility xmi:id="_i6953X6DEeq6x-HpzU5qww" label="+"/>
+      <cardinality xmi:id="_i6953n6DEeq6x-HpzU5qww" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_T3pZsH6FEeq6x-HpzU5qww" source="_i61XAH6DEeq6x-HpzU5qww">
+    <modelElement href="FredsLunch%20UML%20Lab.uml#_i4PV8H6DEeq6x-HpzU5qww"/>
+    <nameVisual xmi:id="_T3pZsX6FEeq6x-HpzU5qww" text=""/>
+    <sourceRole xmi:id="_T3pZsn6FEeq6x-HpzU5qww" aggregationKind="NONE" name="data" navigable="true">
+      <modelElement href="FredsLunch%20UML%20Lab.uml#_i4NgwH6DEeq6x-HpzU5qww"/>
+      <visibility xmi:id="_T3pZs36FEeq6x-HpzU5qww" label="+"/>
+      <cardinality xmi:id="_T3pZtH6FEeq6x-HpzU5qww" label="*" max="-1"/>
+    </sourceRole>
+    <targetRole xmi:id="_T3pZtX6FEeq6x-HpzU5qww" aggregationKind="NONE" name="fredsLunchLunchList" navigable="true">
+      <modelElement href="FredsLunch%20UML%20Lab.uml#_i4OH0H6DEeq6x-HpzU5qww"/>
+      <visibility xmi:id="_T3pZtn6FEeq6x-HpzU5qww" label="+"/>
+      <cardinality xmi:id="_T3pZt36FEeq6x-HpzU5qww" label="*" max="-1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_T38UoH6FEeq6x-HpzU5qww" source="_i61XAH6DEeq6x-HpzU5qww">
+    <modelElement href="FredsLunch%20UML%20Lab.uml#_i4ZG8X6DEeq6x-HpzU5qww"/>
+    <nameVisual xmi:id="_T387sH6FEeq6x-HpzU5qww" text=""/>
+    <sourceRole xmi:id="_T387sX6FEeq6x-HpzU5qww" aggregationKind="NONE" name="data" navigable="true">
+      <modelElement href="FredsLunch%20UML%20Lab.uml#_i4X40n6DEeq6x-HpzU5qww"/>
+      <visibility xmi:id="_T387sn6FEeq6x-HpzU5qww" label="+"/>
+      <cardinality xmi:id="_T387s36FEeq6x-HpzU5qww" label="*" max="-1"/>
+    </sourceRole>
+    <targetRole xmi:id="_T387tH6FEeq6x-HpzU5qww" aggregationKind="NONE" name="fredsLunchMemberList" navigable="true">
+      <modelElement href="FredsLunch%20UML%20Lab.uml#_i4X41X6DEeq6x-HpzU5qww"/>
+      <visibility xmi:id="_T387tX6FEeq6x-HpzU5qww" label="+"/>
+      <cardinality xmi:id="_T387tn6FEeq6x-HpzU5qww" label="*" max="-1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_T4QdsH6FEeq6x-HpzU5qww" sourceAnchor="1.0,25.0" targetAnchor="165.0,5.0" target="_i65BUH6DEeq6x-HpzU5qww" source="_i61XAH6DEeq6x-HpzU5qww">
+    <modelElement href="FredsLunch%20UML%20Lab.uml#_T1RbIH6FEeq6x-HpzU5qww"/>
+    <bendpoints xmi:id="_zKtQIn6JEeq6x-HpzU5qww" sourceY="148" targetX="217"/>
+    <nameVisual xmi:id="_T4QdsX6FEeq6x-HpzU5qww" text="">
+      <visualProperties xmi:id="_-5-QcX6FEeq6x-HpzU5qww" position="-114.0,2.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_T4Qdsn6FEeq6x-HpzU5qww" aggregationKind="NONE" name="data" navigable="true">
+      <modelElement href="FredsLunch%20UML%20Lab.uml#_T1Q0En6FEeq6x-HpzU5qww"/>
+      <visualProperties xmi:id="_-5-QcH6FEeq6x-HpzU5qww" position="-39.0,66.0"/>
+      <visibility xmi:id="_T4Qds36FEeq6x-HpzU5qww" label="+"/>
+      <cardinality xmi:id="_T4QdtH6FEeq6x-HpzU5qww" label="*" max="-1"/>
+    </sourceRole>
+    <targetRole xmi:id="_T4QdtX6FEeq6x-HpzU5qww" aggregationKind="NONE" name="">
+      <modelElement href="FredsLunch%20UML%20Lab.uml#_T1QNAH6FEeq6x-HpzU5qww"/>
+      <visualProperties xmi:id="_-5-Qcn6FEeq6x-HpzU5qww" position="13.5625,-43.0"/>
+      <visibility xmi:id="_T4Qdtn6FEeq6x-HpzU5qww" label="+"/>
+      <cardinality xmi:id="_T4Qdt36FEeq6x-HpzU5qww" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_T53nQH6FEeq6x-HpzU5qww" sourceAnchor="141.0,0.0" targetAnchor="38.0,15.0" target="_i61XAH6DEeq6x-HpzU5qww" source="_i67dkH6DEeq6x-HpzU5qww">
+    <modelElement href="FredsLunch%20UML%20Lab.uml#_T1SCMn6FEeq6x-HpzU5qww"/>
+    <bendpoints xmi:id="_zKspF36JEeq6x-HpzU5qww" sourceY="-71" targetX="-284" targetY="-224"/>
+    <bendpoints xmi:id="_zKspGH6JEeq6x-HpzU5qww" sourceX="299" sourceY="-71" targetX="15" targetY="-224"/>
+    <bendpoints xmi:id="_zKspGX6JEeq6x-HpzU5qww" sourceX="299" sourceY="153" targetX="15"/>
+    <nameVisual xmi:id="_T53nQX6FEeq6x-HpzU5qww" text="">
+      <visualProperties xmi:id="_-59pYX6FEeq6x-HpzU5qww" position="-12.0,41.00000000000003"/>
+    </nameVisual>
+    <sourceRole xmi:id="_T53nQn6FEeq6x-HpzU5qww" aggregationKind="NONE" name="">
+      <modelElement href="FredsLunch%20UML%20Lab.uml#_T1RbIX6FEeq6x-HpzU5qww"/>
+      <visualProperties xmi:id="_-59pYH6FEeq6x-HpzU5qww" position="41.5,-70.0"/>
+      <visibility xmi:id="_T53nQ36FEeq6x-HpzU5qww" label="+"/>
+      <cardinality xmi:id="_T53nRH6FEeq6x-HpzU5qww" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_T53nRX6FEeq6x-HpzU5qww" aggregationKind="NONE" name="data" navigable="true">
+      <modelElement href="FredsLunch%20UML%20Lab.uml#_T1RbJH6FEeq6x-HpzU5qww"/>
+      <visualProperties xmi:id="_-59pYn6FEeq6x-HpzU5qww" position="17.0,-72.16666666666666"/>
+      <visibility xmi:id="_T53nRn6FEeq6x-HpzU5qww" label="+"/>
+      <cardinality xmi:id="_T53nR36FEeq6x-HpzU5qww" label="*" max="-1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_T6TFEH6FEeq6x-HpzU5qww" sourceAnchor="19.0,25.0" targetAnchor="47.0,0.0" target="_i6_vAH6DEeq6x-HpzU5qww" source="_i61XAH6DEeq6x-HpzU5qww">
+    <modelElement href="FredsLunch%20UML%20Lab.uml#_T1SpRH6FEeq6x-HpzU5qww"/>
+    <nameVisual xmi:id="_T6TFEX6FEeq6x-HpzU5qww" text="">
+      <visualProperties xmi:id="_-5-3gH6FEeq6x-HpzU5qww" position="-13.0,-37.45454545454544"/>
+    </nameVisual>
+    <sourceRole xmi:id="_T6TFEn6FEeq6x-HpzU5qww" aggregationKind="NONE" name="data" navigable="true">
+      <modelElement href="FredsLunch%20UML%20Lab.uml#_T1SpQX6FEeq6x-HpzU5qww"/>
+      <visualProperties xmi:id="_-5-Qc36FEeq6x-HpzU5qww" position="2.0,82.0"/>
+      <visibility xmi:id="_T6TFE36FEeq6x-HpzU5qww" label="+"/>
+      <cardinality xmi:id="_T6TFFH6FEeq6x-HpzU5qww" label="*" max="-1"/>
+    </sourceRole>
+    <targetRole xmi:id="_T6TFFX6FEeq6x-HpzU5qww" aggregationKind="NONE" name="">
+      <modelElement href="FredsLunch%20UML%20Lab.uml#_T1SCM36FEeq6x-HpzU5qww"/>
+      <visualProperties xmi:id="_-5-3gX6FEeq6x-HpzU5qww" position="-16.0,-69.0"/>
+      <visibility xmi:id="_T6TFFn6FEeq6x-HpzU5qww" label="+"/>
+      <cardinality xmi:id="_T6TFF36FEeq6x-HpzU5qww" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_T93WcH6FEeq6x-HpzU5qww" sourceAnchor="279.0,0.0" targetAnchor="0.0,20.0" target="_i6y6uH6DEeq6x-HpzU5qww" source="_i67dkH6DEeq6x-HpzU5qww">
+    <modelElement href="FredsLunch%20UML%20Lab.uml#_T1T3Y36FEeq6x-HpzU5qww"/>
+    <nameVisual xmi:id="_T93WcX6FEeq6x-HpzU5qww" text="">
+      <visualProperties xmi:id="_xRjS8X6FEeq6x-HpzU5qww" position="4.0,-7.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_T93Wcn6FEeq6x-HpzU5qww" aggregationKind="NONE" name="">
+      <modelElement href="FredsLunch%20UML%20Lab.uml#_T1TQUH6FEeq6x-HpzU5qww"/>
+      <visualProperties xmi:id="_xRjS8H6FEeq6x-HpzU5qww" position="35.0,-37.0"/>
+      <visibility xmi:id="_T93Wc36FEeq6x-HpzU5qww" label="+"/>
+      <cardinality xmi:id="_T93WdH6FEeq6x-HpzU5qww" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_T93WdX6FEeq6x-HpzU5qww" aggregationKind="NONE" name="lunchCSV" navigable="true">
+      <modelElement href="FredsLunch%20UML%20Lab.uml#_T1T3YH6FEeq6x-HpzU5qww"/>
+      <visualProperties xmi:id="_xRjS8n6FEeq6x-HpzU5qww" position="-69.0,6.0"/>
+      <visibility xmi:id="_T93Wdn6FEeq6x-HpzU5qww" label="+"/>
+      <cardinality xmi:id="_T93Wd36FEeq6x-HpzU5qww" label="*" max="-1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_T_9BIH6FEeq6x-HpzU5qww" target="_i6-g4H6DEeq6x-HpzU5qww">
+    <modelElement href="FredsLunch%20UML%20Lab.uml#_i4aVEX6DEeq6x-HpzU5qww"/>
+    <nameVisual xmi:id="_T_9BIX6FEeq6x-HpzU5qww" text=""/>
+    <sourceRole xmi:id="_T_9BIn6FEeq6x-HpzU5qww" aggregationKind="NONE" name="fredsLunchMemberList" navigable="true">
+      <modelElement href="FredsLunch%20UML%20Lab.uml#_i4aVEH6DEeq6x-HpzU5qww"/>
+      <visibility xmi:id="_T_9BI36FEeq6x-HpzU5qww" label="+"/>
+      <cardinality xmi:id="_T_9BJH6FEeq6x-HpzU5qww" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_T_9BJX6FEeq6x-HpzU5qww" aggregationKind="NONE" name="members" navigable="true">
+      <modelElement href="FredsLunch%20UML%20Lab.uml#_i4ZuAH6DEeq6x-HpzU5qww"/>
+      <visibility xmi:id="_T_9BJn6FEeq6x-HpzU5qww" label="+"/>
+      <cardinality xmi:id="_T_9BJ36FEeq6x-HpzU5qww" label="*" max="-1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_UBnOAH6FEeq6x-HpzU5qww" target="_i6-g4H6DEeq6x-HpzU5qww">
+    <modelElement href="FredsLunch%20UML%20Lab.uml#_i4emgn6DEeq6x-HpzU5qww"/>
+    <nameVisual xmi:id="_UBnOAX6FEeq6x-HpzU5qww" text=""/>
+    <sourceRole xmi:id="_UBnOAn6FEeq6x-HpzU5qww" aggregationKind="NONE" name="fredsLunchParticipant" navigable="true">
+      <modelElement href="FredsLunch%20UML%20Lab.uml#_i4d_c36DEeq6x-HpzU5qww"/>
+      <visibility xmi:id="_UBnOA36FEeq6x-HpzU5qww" label="+"/>
+      <cardinality xmi:id="_UBnOBH6FEeq6x-HpzU5qww" label="*" max="-1"/>
+    </sourceRole>
+    <targetRole xmi:id="_UBnOBX6FEeq6x-HpzU5qww" aggregationKind="NONE" name="member" navigable="true">
+      <modelElement href="FredsLunch%20UML%20Lab.uml#_i4d_cH6DEeq6x-HpzU5qww"/>
+      <visibility xmi:id="_UBnOBn6FEeq6x-HpzU5qww" label="+"/>
+      <cardinality xmi:id="_UBnOB36FEeq6x-HpzU5qww" label="*" max="-1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_UCxEkH6FEeq6x-HpzU5qww" sourceAnchor="92.0,71.0" targetAnchor="0.0,6.0" target="_i6-g4H6DEeq6x-HpzU5qww" source="_i6_vAH6DEeq6x-HpzU5qww">
+    <modelElement href="FredsLunch%20UML%20Lab.uml#_T1Uec36FEeq6x-HpzU5qww"/>
+    <bendpoints xmi:id="_zKspFH6JEeq6x-HpzU5qww" sourceY="32" targetX="-201"/>
+    <nameVisual xmi:id="_UCxEkX6FEeq6x-HpzU5qww" text="">
+      <visualProperties xmi:id="_R26bkH6GEeq6x-HpzU5qww" position="99.0,2.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_UCxEkn6FEeq6x-HpzU5qww" aggregationKind="NONE" name="">
+      <modelElement href="FredsLunch%20UML%20Lab.uml#_T1T3ZH6FEeq6x-HpzU5qww"/>
+      <visualProperties xmi:id="_R250gH6GEeq6x-HpzU5qww" position="173.0,-11.0"/>
+      <visibility xmi:id="_UCxEk36FEeq6x-HpzU5qww" label="+"/>
+      <cardinality xmi:id="_UCxElH6FEeq6x-HpzU5qww" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_UCxElX6FEeq6x-HpzU5qww" aggregationKind="NONE" name="members" navigable="true">
+      <modelElement href="FredsLunch%20UML%20Lab.uml#_T1UecH6FEeq6x-HpzU5qww"/>
+      <visualProperties xmi:id="_R26bkX6GEeq6x-HpzU5qww" position="-98.0,-43.0"/>
+      <visibility xmi:id="_UCxEln6FEeq6x-HpzU5qww" label="+"/>
+      <cardinality xmi:id="_UCxEl36FEeq6x-HpzU5qww" label="*" max="-1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_UEHvcH6FEeq6x-HpzU5qww" sourceAnchor="179.0,65.0" targetAnchor="58.0,15.0" target="_i6-g4H6DEeq6x-HpzU5qww" source="_i7BkMH6DEeq6x-HpzU5qww">
+    <modelElement href="FredsLunch%20UML%20Lab.uml#_T1VFhX6FEeq6x-HpzU5qww"/>
+    <bendpoints xmi:id="_zKspEX6JEeq6x-HpzU5qww" sourceX="305" targetX="15" targetY="63"/>
+    <bendpoints xmi:id="_zKspEn6JEeq6x-HpzU5qww" sourceX="305" sourceY="-63" targetX="15"/>
+    <nameVisual xmi:id="_UEHvcX6FEeq6x-HpzU5qww" text="">
+      <visualProperties xmi:id="_R27CoH6GEeq6x-HpzU5qww" position="-12.0,-24.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_UEHvcn6FEeq6x-HpzU5qww" aggregationKind="NONE" name="">
+      <modelElement href="FredsLunch%20UML%20Lab.uml#_T1UedH6FEeq6x-HpzU5qww"/>
+      <visualProperties xmi:id="_R26bkn6GEeq6x-HpzU5qww" position="47.0,2.0"/>
+      <visibility xmi:id="_UEHvc36FEeq6x-HpzU5qww" label="+"/>
+      <cardinality xmi:id="_UEHvdH6FEeq6x-HpzU5qww" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_UEHvdX6FEeq6x-HpzU5qww" aggregationKind="NONE" name="member" navigable="true">
+      <modelElement href="FredsLunch%20UML%20Lab.uml#_T1VFgn6FEeq6x-HpzU5qww"/>
+      <visualProperties xmi:id="_R27CoX6GEeq6x-HpzU5qww" position="17.0,7.0"/>
+      <visibility xmi:id="_UEHvdn6FEeq6x-HpzU5qww" label="+"/>
+      <cardinality xmi:id="_UEHvd36FEeq6x-HpzU5qww" label="*" max="-1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_ahRcQH6JEeq6x-HpzU5qww" sourceAnchor="283.0,35.0" targetAnchor="20.0,25.0" target="_i6y6uH6DEeq6x-HpzU5qww" source="_i67dkH6DEeq6x-HpzU5qww">
+    <modelElement href="FredsLunch%20UML%20Lab.uml#_ag2lgH6JEeq6x-HpzU5qww"/>
+    <nameVisual xmi:id="_ahRcQX6JEeq6x-HpzU5qww" text="">
+      <visualProperties xmi:id="_jhNLsn6JEeq6x-HpzU5qww" position="5.0,-7.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_wE4SMH6KEeq6x-HpzU5qww" aggregationKind="NONE" name="main" navigable="true">
+      <modelElement href="FredsLunch%20UML%20Lab.uml#_i4M5sX6DEeq6x-HpzU5qww"/>
+      <visibility xmi:id="_wFJX8H6KEeq6x-HpzU5qww" label="+"/>
+      <cardinality xmi:id="_wFCqQH6KEeq6x-HpzU5qww" label="*" max="-1"/>
+    </sourceRole>
+    <targetRole xmi:id="_wFKmEH6KEeq6x-HpzU5qww" aggregationKind="NONE" name="lunchCSV" navigable="true">
+      <modelElement href="FredsLunch%20UML%20Lab.uml#_i4WDoH6DEeq6x-HpzU5qww"/>
+      <visibility xmi:id="_wFmD4H6KEeq6x-HpzU5qww" label="+"/>
+      <cardinality xmi:id="_wFVlMH6KEeq6x-HpzU5qww" label="*" max="-1"/>
+    </targetRole>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_i6y6uH6DEeq6x-HpzU5qww" name="LunchCSV" associationsIn="_T93WcH6FEeq6x-HpzU5qww _ahRcQH6JEeq6x-HpzU5qww">
+    <modelElement href="FredsLunch%20UML%20Lab.uml#_i3lOoH6DEeq6x-HpzU5qww"/>
+    <visualProperties xmi:id="_i6y6uX6DEeq6x-HpzU5qww" position="293.0,10.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_i6y6un6DEeq6x-HpzU5qww" label="+"/>
+    <attributes xmi:id="_i6y6u36DEeq6x-HpzU5qww" name="main">
+      <modelElement href="FredsLunch%20UML%20Lab.uml#_i4M5sX6DEeq6x-HpzU5qww"/>
+      <visibility xmi:id="_i6y6vH6DEeq6x-HpzU5qww" label="+"/>
+      <cardinality xmi:id="_i6y6vX6DEeq6x-HpzU5qww" label="*" max="-1"/>
+      <type xmi:id="_i6y6vn6DEeq6x-HpzU5qww" name="Main">
+        <modelElement href="FredsLunch%20UML%20Lab.uml#_i3nD0H6DEeq6x-HpzU5qww"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_i63zM36DEeq6x-HpzU5qww" name="Lunch" associationsIn="_i63MIH6DEeq6x-HpzU5qww">
+    <modelElement href="FredsLunch%20UML%20Lab.uml#_i3knkH6DEeq6x-HpzU5qww"/>
+    <visualProperties xmi:id="_i63zNH6DEeq6x-HpzU5qww" position="56.0,492.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_i63zNX6DEeq6x-HpzU5qww" label="+"/>
+    <attributes xmi:id="_i63zNn6DEeq6x-HpzU5qww" name="lunchList">
+      <modelElement href="FredsLunch%20UML%20Lab.uml#_i4M5sH6DEeq6x-HpzU5qww"/>
+      <visibility xmi:id="_i63zN36DEeq6x-HpzU5qww" label="+"/>
+      <cardinality xmi:id="_i63zOH6DEeq6x-HpzU5qww" label="1" max="1" min="1"/>
+      <type xmi:id="_i63zOX6DEeq6x-HpzU5qww" name="LunchList">
+        <modelElement href="FredsLunch%20UML%20Lab.uml#_i3l1sH6DEeq6x-HpzU5qww"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_i7BkMH6DEeq6x-HpzU5qww" name="Participant" associationsOut="_i695136DEeq6x-HpzU5qww _UEHvcH6FEeq6x-HpzU5qww">
+    <modelElement href="FredsLunch%20UML%20Lab.uml#_i3qHIH6DEeq6x-HpzU5qww"/>
+    <visualProperties xmi:id="_i7BkMX6DEeq6x-HpzU5qww" position="195.0,490.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_i7BkMn6DEeq6x-HpzU5qww" label="+"/>
+    <attributes xmi:id="_i7BkM36DEeq6x-HpzU5qww" name="lunch">
+      <modelElement href="FredsLunch%20UML%20Lab.uml#_i4bjMH6DEeq6x-HpzU5qww"/>
+      <visibility xmi:id="_i7BkNH6DEeq6x-HpzU5qww" label="+"/>
+      <cardinality xmi:id="_i7BkNX6DEeq6x-HpzU5qww" label="1" max="1" min="1"/>
+      <type xmi:id="_CZMl0H6FEeq6x-HpzU5qww" name="Lunch">
+        <modelElement href="FredsLunch%20UML%20Lab.uml#_i3knkH6DEeq6x-HpzU5qww"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_i7BkN36DEeq6x-HpzU5qww" name="member">
+      <modelElement href="FredsLunch%20UML%20Lab.uml#_i4d_cH6DEeq6x-HpzU5qww"/>
+      <visibility xmi:id="_i7BkOH6DEeq6x-HpzU5qww" label="+"/>
+      <cardinality xmi:id="_i7BkOX6DEeq6x-HpzU5qww" label="*" max="-1"/>
+      <type xmi:id="_KjXx8H6FEeq6x-HpzU5qww" name="Member">
+        <modelElement href="FredsLunch%20UML%20Lab.uml#_i3oR8H6DEeq6x-HpzU5qww"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_i6-g4H6DEeq6x-HpzU5qww" name="Member" associationsIn="_i69SwH6DEeq6x-HpzU5qww _i695136DEeq6x-HpzU5qww _T_9BIH6FEeq6x-HpzU5qww _UBnOAH6FEeq6x-HpzU5qww _UCxEkH6FEeq6x-HpzU5qww _UEHvcH6FEeq6x-HpzU5qww">
+    <modelElement href="FredsLunch%20UML%20Lab.uml#_i3oR8H6DEeq6x-HpzU5qww"/>
+    <visualProperties xmi:id="_i6-g4X6DEeq6x-HpzU5qww" position="606.0,477.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_i6-g4n6DEeq6x-HpzU5qww" label="+"/>
+    <attributes xmi:id="_i6-g436DEeq6x-HpzU5qww" name="memberList">
+      <modelElement href="FredsLunch%20UML%20Lab.uml#_i4XRwH6DEeq6x-HpzU5qww"/>
+      <visibility xmi:id="_i6-g5H6DEeq6x-HpzU5qww" label="+"/>
+      <cardinality xmi:id="_i6-g5X6DEeq6x-HpzU5qww" label="1" max="1" min="1"/>
+      <type xmi:id="_i6-g5n6DEeq6x-HpzU5qww" name="MemberList">
+        <modelElement href="FredsLunch%20UML%20Lab.uml#_i3o5AH6DEeq6x-HpzU5qww"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_i6-g536DEeq6x-HpzU5qww" name="participant">
+      <modelElement href="FredsLunch%20UML%20Lab.uml#_i4X40H6DEeq6x-HpzU5qww"/>
+      <visibility xmi:id="_i6-g6H6DEeq6x-HpzU5qww" label="+"/>
+      <cardinality xmi:id="_i6-g6X6DEeq6x-HpzU5qww" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_i6-g6n6DEeq6x-HpzU5qww" name="Participant">
+        <modelElement href="FredsLunch%20UML%20Lab.uml#_i3qHIH6DEeq6x-HpzU5qww"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_i6_vAH6DEeq6x-HpzU5qww" name="MemberList" associationsIn="_T6TFEH6FEeq6x-HpzU5qww" associationsOut="_i61W-H6DEeq6x-HpzU5qww _i69SwH6DEeq6x-HpzU5qww _UCxEkH6FEeq6x-HpzU5qww">
+    <modelElement href="FredsLunch%20UML%20Lab.uml#_i3o5AH6DEeq6x-HpzU5qww"/>
+    <visualProperties xmi:id="_i6_vAX6DEeq6x-HpzU5qww" position="313.0,380.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_i6_vAn6DEeq6x-HpzU5qww" label="+"/>
+    <attributes xmi:id="_i6_vA36DEeq6x-HpzU5qww" name="data">
+      <modelElement href="FredsLunch%20UML%20Lab.uml#_i4X40n6DEeq6x-HpzU5qww"/>
+      <visibility xmi:id="_i6_vBH6DEeq6x-HpzU5qww" label="+"/>
+      <cardinality xmi:id="_i6_vBX6DEeq6x-HpzU5qww" label="*" max="-1"/>
+      <type xmi:id="_5_IjkH6EEeq6x-HpzU5qww" name="Data">
+        <modelElement href="FredsLunch%20UML%20Lab.uml#_i3iyYH6DEeq6x-HpzU5qww"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_i6_vB36DEeq6x-HpzU5qww" name="members">
+      <modelElement href="FredsLunch%20UML%20Lab.uml#_i4ZuAH6DEeq6x-HpzU5qww"/>
+      <visibility xmi:id="_i6_vCH6DEeq6x-HpzU5qww" label="+"/>
+      <cardinality xmi:id="_i6_vCX6DEeq6x-HpzU5qww" label="*" max="-1"/>
+      <type xmi:id="_-0An0H6EEeq6x-HpzU5qww" name="Member">
+        <modelElement href="FredsLunch%20UML%20Lab.uml#_i3oR8H6DEeq6x-HpzU5qww"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_i65BUH6DEeq6x-HpzU5qww" name="LunchList" associationsIn="_T4QdsH6FEeq6x-HpzU5qww" associationsOut="_i61W8H6DEeq6x-HpzU5qww _i63MIH6DEeq6x-HpzU5qww">
+    <modelElement href="FredsLunch%20UML%20Lab.uml#_i3l1sH6DEeq6x-HpzU5qww"/>
+    <visualProperties xmi:id="_i65BUX6DEeq6x-HpzU5qww" position="-40.0,372.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_i65BUn6DEeq6x-HpzU5qww" label="+"/>
+    <attributes xmi:id="_i65BU36DEeq6x-HpzU5qww" name="data">
+      <modelElement href="FredsLunch%20UML%20Lab.uml#_i4NgwH6DEeq6x-HpzU5qww"/>
+      <visibility xmi:id="_i65BVH6DEeq6x-HpzU5qww" label="+"/>
+      <cardinality xmi:id="_i65BVX6DEeq6x-HpzU5qww" label="*" max="-1"/>
+      <type xmi:id="_unmqoH6EEeq6x-HpzU5qww" name="Data">
+        <modelElement href="FredsLunch%20UML%20Lab.uml#_i3iyYH6DEeq6x-HpzU5qww"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_i65BV36DEeq6x-HpzU5qww" name="lunches">
+      <modelElement href="FredsLunch%20UML%20Lab.uml#_i4TAUH6DEeq6x-HpzU5qww"/>
+      <visibility xmi:id="_i65BWH6DEeq6x-HpzU5qww" label="+"/>
+      <cardinality xmi:id="_i65BWX6DEeq6x-HpzU5qww" label="*" max="-1"/>
+      <type xmi:id="_2QoRgH6EEeq6x-HpzU5qww" name="Lunch">
+        <modelElement href="FredsLunch%20UML%20Lab.uml#_i3knkH6DEeq6x-HpzU5qww"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_i67dkH6DEeq6x-HpzU5qww" name="Main" associationsOut="_i60I0H6DEeq6x-HpzU5qww _T93WcH6FEeq6x-HpzU5qww _T53nQH6FEeq6x-HpzU5qww _ahRcQH6JEeq6x-HpzU5qww">
+    <modelElement href="FredsLunch%20UML%20Lab.uml#_i3nD0H6DEeq6x-HpzU5qww"/>
+    <visualProperties xmi:id="_i67dkX6DEeq6x-HpzU5qww" position="-46.0,66.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_i67dkn6DEeq6x-HpzU5qww" label="+"/>
+    <attributes xmi:id="_i67dk36DEeq6x-HpzU5qww" defaultValue="null" name="data">
+      <modelElement href="FredsLunch%20UML%20Lab.uml#_i4UOcH6DEeq6x-HpzU5qww"/>
+      <visibility xmi:id="_i67dlH6DEeq6x-HpzU5qww" label="+"/>
+      <cardinality xmi:id="_i67dlX6DEeq6x-HpzU5qww" label="0..1" max="1"/>
+      <type xmi:id="_9JYugH6DEeq6x-HpzU5qww" name="Data">
+        <modelElement href="FredsLunch%20UML%20Lab.uml#_i3iyYH6DEeq6x-HpzU5qww"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_i67dl36DEeq6x-HpzU5qww" name="lunchCSV">
+      <modelElement href="FredsLunch%20UML%20Lab.uml#_i4WDoH6DEeq6x-HpzU5qww"/>
+      <visibility xmi:id="_i67dmH6DEeq6x-HpzU5qww" label="+"/>
+      <cardinality xmi:id="_i67dmX6DEeq6x-HpzU5qww" label="*" max="-1"/>
+      <type xmi:id="_CkWiYH6EEeq6x-HpzU5qww" name="LunchCSV">
+        <modelElement href="FredsLunch%20UML%20Lab.uml#_i3lOoH6DEeq6x-HpzU5qww"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_pDjPYH6IEeq6x-HpzU5qww" name="accountName">
+      <modelElement href="FredsLunch%20UML%20Lab.uml#_pDXCIH6IEeq6x-HpzU5qww"/>
+      <stereotypes xmi:id="_pDj2cH6IEeq6x-HpzU5qww" name="LegacyStyledElement">
+        <modelElement href="FredsLunch%20UML%20Lab.uml#_pDXCIX6IEeq6x-HpzU5qww"/>
+      </stereotypes>
+      <visibility xmi:id="_pDj2cX6IEeq6x-HpzU5qww" label="+"/>
+      <cardinality xmi:id="_pDj2cn6IEeq6x-HpzU5qww" label="1" max="1" min="1"/>
+      <type xmi:id="_pDj2c36IEeq6x-HpzU5qww" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_pDY3UH6IEeq6x-HpzU5qww" name="getAccountName">
+      <modelElement href="FredsLunch%20UML%20Lab.uml#_pDUl4H6IEeq6x-HpzU5qww"/>
+      <visibility xmi:id="_pDY3UX6IEeq6x-HpzU5qww" label="+"/>
+      <cardinality xmi:id="_pDY3Un6IEeq6x-HpzU5qww" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_pDY3U36IEeq6x-HpzU5qww">
+        <modelElement href="FredsLunch%20UML%20Lab.uml#_pDV0An6IEeq6x-HpzU5qww"/>
+        <type xmi:id="_pDY3VH6IEeq6x-HpzU5qww" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_pDZeYH6IEeq6x-HpzU5qww" name="setAccountName">
+      <modelElement href="FredsLunch%20UML%20Lab.uml#_pDV0AH6IEeq6x-HpzU5qww"/>
+      <visibility xmi:id="_pDZeYX6IEeq6x-HpzU5qww" label="+"/>
+      <cardinality xmi:id="_pDZeYn6IEeq6x-HpzU5qww" label="1" max="1" min="1"/>
+      <parameters xmi:id="_pDZeY36IEeq6x-HpzU5qww" name="accountName">
+        <modelElement href="FredsLunch%20UML%20Lab.uml#_pDV0AX6IEeq6x-HpzU5qww"/>
+        <cardinality xmi:id="_pDZeZH6IEeq6x-HpzU5qww" label="1" max="1" min="1"/>
+        <type xmi:id="_pDZeZX6IEeq6x-HpzU5qww" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_wE0n0H6KEeq6x-HpzU5qww" name="main" staticOperation="true">
+      <modelElement href="FredsLunch%20UML%20Lab.uml#_wDcu0H6KEeq6x-HpzU5qww"/>
+      <visibility xmi:id="_wE0n0X6KEeq6x-HpzU5qww" label="+"/>
+      <cardinality xmi:id="_wE0n0n6KEeq6x-HpzU5qww" label="1" max="1" min="1"/>
+      <parameters xmi:id="_wE0n036KEeq6x-HpzU5qww" name="args">
+        <modelElement href="FredsLunch%20UML%20Lab.uml#_wDcu0X6KEeq6x-HpzU5qww"/>
+        <cardinality xmi:id="_wE0n1H6KEeq6x-HpzU5qww" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_wE0n1X6KEeq6x-HpzU5qww" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Fq8w0H6NEeq6x-HpzU5qww" name="setData">
+      <modelElement href="FredsLunch%20UML%20Lab.uml#_FpMdUH6NEeq6x-HpzU5qww"/>
+      <visibility xmi:id="_Fq8w0X6NEeq6x-HpzU5qww" label="+"/>
+      <cardinality xmi:id="_Fq8w0n6NEeq6x-HpzU5qww" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Fq8w036NEeq6x-HpzU5qww">
+        <modelElement href="FredsLunch%20UML%20Lab.uml#_FpMdUn6NEeq6x-HpzU5qww"/>
+        <type xmi:id="_Fq8w1H6NEeq6x-HpzU5qww" name="Data">
+          <modelElement href="FredsLunch%20UML%20Lab.uml#_i3iyYH6DEeq6x-HpzU5qww"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Fq8w1X6NEeq6x-HpzU5qww" name="data">
+        <modelElement href="FredsLunch%20UML%20Lab.uml#_FpMdUX6NEeq6x-HpzU5qww"/>
+        <cardinality xmi:id="_Fq8w1n6NEeq6x-HpzU5qww" label="1" max="1" min="1"/>
+        <type xmi:id="_Fq8w136NEeq6x-HpzU5qww" name="Data">
+          <modelElement href="FredsLunch%20UML%20Lab.uml#_i3iyYH6DEeq6x-HpzU5qww"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_i61XAH6DEeq6x-HpzU5qww" name="Data" associationsIn="_i60I0H6DEeq6x-HpzU5qww _i61W8H6DEeq6x-HpzU5qww _i61W-H6DEeq6x-HpzU5qww _T53nQH6FEeq6x-HpzU5qww" associationsOut="_T3pZsH6FEeq6x-HpzU5qww _T38UoH6FEeq6x-HpzU5qww _T4QdsH6FEeq6x-HpzU5qww _T6TFEH6FEeq6x-HpzU5qww">
+    <modelElement href="FredsLunch%20UML%20Lab.uml#_i3iyYH6DEeq6x-HpzU5qww"/>
+    <visualProperties xmi:id="_i61XAX6DEeq6x-HpzU5qww" position="341.0,204.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_i61XAn6DEeq6x-HpzU5qww" label="+"/>
+    <attributes xmi:id="_i61XA36DEeq6x-HpzU5qww" name="main">
+      <modelElement href="FredsLunch%20UML%20Lab.uml#_i4LrkH6DEeq6x-HpzU5qww"/>
+      <visibility xmi:id="_i61XBH6DEeq6x-HpzU5qww" label="+"/>
+      <cardinality xmi:id="_i61XBX6DEeq6x-HpzU5qww" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_i61XBn6DEeq6x-HpzU5qww" name="Main">
+        <modelElement href="FredsLunch%20UML%20Lab.uml#_i3nD0H6DEeq6x-HpzU5qww"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_i61XB36DEeq6x-HpzU5qww" name="lunchList">
+      <modelElement href="FredsLunch%20UML%20Lab.uml#_i4MSoH6DEeq6x-HpzU5qww"/>
+      <visibility xmi:id="_i61XCH6DEeq6x-HpzU5qww" label="+"/>
+      <cardinality xmi:id="_i61XCX6DEeq6x-HpzU5qww" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_i61XCn6DEeq6x-HpzU5qww" name="LunchList">
+        <modelElement href="FredsLunch%20UML%20Lab.uml#_i3l1sH6DEeq6x-HpzU5qww"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_i61XC36DEeq6x-HpzU5qww" name="memberList">
+      <modelElement href="FredsLunch%20UML%20Lab.uml#_i4MSon6DEeq6x-HpzU5qww"/>
+      <visibility xmi:id="_i61XDH6DEeq6x-HpzU5qww" label="+"/>
+      <cardinality xmi:id="_i61XDX6DEeq6x-HpzU5qww" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_i61XDn6DEeq6x-HpzU5qww" name="MemberList">
+        <modelElement href="FredsLunch%20UML%20Lab.uml#_i3o5AH6DEeq6x-HpzU5qww"/>
+      </type>
+    </attributes>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>
