@@ -227,6 +227,9 @@
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_al8oQH6GEeq6x-HpzU5qww"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Pac1oX6FEeq6x-HpzU5qww" value="*"/>
         </ownedAttribute>
+        <ownedAttribute xmi:id="_wVlZgIjDEeqM7vwq56Isig" name="memberName" visibility="public">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
       </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_7hGXgH6CEeq6x-HpzU5qww" name="FredsLunchMember">
         <ownedAttribute xmi:id="_8d6lEH6CEeq6x-HpzU5qww" name="fredsLunchMemberList" type="_BSOBkH6DEeq6x-HpzU5qww" association="_BSQd036DEeq6x-HpzU5qww"/>
@@ -296,7 +299,7 @@
       </packagedElement>
       <packagedElement xmi:type="uml:Association" xmi:id="_al6MAX6GEeq6x-HpzU5qww" name="" memberEnd="_PaSdkn6FEeq6x-HpzU5qww _PaRPcn6FEeq6x-HpzU5qww"/>
       <packagedElement xmi:type="uml:Association" xmi:id="_al6zEn6GEeq6x-HpzU5qww" name="" memberEnd="_Pac1on6FEeq6x-HpzU5qww _PaR2gX6FEeq6x-HpzU5qww"/>
-      <packagedElement xmi:type="uml:Association" xmi:id="_al8BMX6GEeq6x-HpzU5qww" name="" memberEnd="_PacOkH6FEeq6x-HpzU5qww _PaeDwH6FEeq6x-HpzU5qww">
+      <packagedElement xmi:type="uml:Association" xmi:id="_al8BMX6GEeq6x-HpzU5qww" name="members" memberEnd="_PacOkH6FEeq6x-HpzU5qww _PaeDwH6FEeq6x-HpzU5qww">
         <ownedEnd xmi:id="_PaeDwH6FEeq6x-HpzU5qww" name="" type="_7hAQ4H6CEeq6x-HpzU5qww" association="_al8BMX6GEeq6x-HpzU5qww">
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Paeq0H6FEeq6x-HpzU5qww"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Paeq0X6FEeq6x-HpzU5qww" value="*"/>
