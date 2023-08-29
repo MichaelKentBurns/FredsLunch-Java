@@ -1,6 +1,7 @@
 package fredsLunch;
 import java.util.Set;
 import java.util.HashSet;
+/* Testing 1 2 3 */
 
 public class Member {
 /**
