@@ -187,91 +187,6 @@
     <modelElement href="FredsLunch.uml#_0F8qAH6BEeq6x-HpzU5qww"/>
     <visualProperties xmi:id="_YY2WkYiiEeqM7vwq56Isig" position="-414.0,-119.0" size="121.0,165.0"/>
   </nodes>
-  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_Yd6cwIiiEeqM7vwq56Isig" containment="_YcJiMIiiEeqM7vwq56Isig" name="Main" package="_YY2WkIiiEeqM7vwq56Isig" associationsOut="_S8YG0IiiEeqM7vwq56Isig _YU4ckIiiEeqM7vwq56Isig">
-    <modelElement href="FredsLunch.uml#_0nhQkH6CEeq6x-HpzU5qww"/>
-    <visualProperties xmi:id="_Yd6cwYiiEeqM7vwq56Isig" position="-155.0,93.0" size="-1.0,-1.0"/>
-    <visibility xmi:id="_Yd6cwoiiEeqM7vwq56Isig" label="+"/>
-    <attributes xmi:id="_Yd6cw4iiEeqM7vwq56Isig" defaultValue="null" name="data">
-      <modelElement href="FredsLunch.uml#_PaZLQH6FEeq6x-HpzU5qww"/>
-      <visibility xmi:id="_Yd6cxIiiEeqM7vwq56Isig" label="+"/>
-      <cardinality xmi:id="_Yd6cxYiiEeqM7vwq56Isig" label="0..1" max="1"/>
-      <type xmi:id="_Yd6cxoiiEeqM7vwq56Isig" name="Data">
-        <modelElement href="FredsLunch.uml#_g0tNYH6CEeq6x-HpzU5qww"/>
-      </type>
-    </attributes>
-    <attributes xmi:id="_Yd6cx4iiEeqM7vwq56Isig" name="lunchCSV">
-      <modelElement href="FredsLunch.uml#_PaaZYH6FEeq6x-HpzU5qww"/>
-      <visibility xmi:id="_Yd6cyIiiEeqM7vwq56Isig" label="+"/>
-      <cardinality xmi:id="_Yd6cyYiiEeqM7vwq56Isig" label="*" max="-1"/>
-      <type xmi:id="_Yd6cyoiiEeqM7vwq56Isig" name="LunchCSV">
-        <modelElement href="FredsLunch.uml#_TXnWIH6CEeq6x-HpzU5qww"/>
-      </type>
-    </attributes>
-    <attributes xmi:id="_Yd6cy4iiEeqM7vwq56Isig" name="accountName">
-      <modelElement href="FredsLunch.uml#_o7h70H6IEeq6x-HpzU5qww"/>
-      <stereotypes xmi:id="_Yd6czIiiEeqM7vwq56Isig" name="LegacyStyledElement">
-        <modelElement href="FredsLunch.uml#_o7ii4H6IEeq6x-HpzU5qww"/>
-      </stereotypes>
-      <visibility xmi:id="_Yd6czYiiEeqM7vwq56Isig" label="+"/>
-      <cardinality xmi:id="_Yd6czoiiEeqM7vwq56Isig" label="1" max="1" min="1"/>
-      <type xmi:id="_Yd6cz4iiEeqM7vwq56Isig" name="String">
-        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-      </type>
-    </attributes>
-    <operations xmi:id="_Yd6c0IiiEeqM7vwq56Isig" name="getAccountName">
-      <modelElement href="FredsLunch.uml#_o7eRcH6IEeq6x-HpzU5qww"/>
-      <visibility xmi:id="_Yd6c0YiiEeqM7vwq56Isig" label="+"/>
-      <cardinality xmi:id="_Yd6c0oiiEeqM7vwq56Isig" label="1" max="1" min="1"/>
-      <outParameters xmi:id="_Yd6c04iiEeqM7vwq56Isig">
-        <modelElement href="FredsLunch.uml#_o7gtsH6IEeq6x-HpzU5qww"/>
-        <type xmi:id="_Yd6c1IiiEeqM7vwq56Isig" name="String">
-          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-        </type>
-      </outParameters>
-    </operations>
-    <operations xmi:id="_Yd6c1YiiEeqM7vwq56Isig" name="setAccountName">
-      <modelElement href="FredsLunch.uml#_o7gGoH6IEeq6x-HpzU5qww"/>
-      <visibility xmi:id="_Yd6c1oiiEeqM7vwq56Isig" label="+"/>
-      <cardinality xmi:id="_Yd6c14iiEeqM7vwq56Isig" label="1" max="1" min="1"/>
-      <parameters xmi:id="_Yd6c2IiiEeqM7vwq56Isig" name="accountName">
-        <modelElement href="FredsLunch.uml#_o7gGoX6IEeq6x-HpzU5qww"/>
-        <cardinality xmi:id="_Yd6c2YiiEeqM7vwq56Isig" label="1" max="1" min="1"/>
-        <type xmi:id="_Yd6c2oiiEeqM7vwq56Isig" name="String">
-          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-        </type>
-      </parameters>
-    </operations>
-    <operations xmi:id="_Yd6c24iiEeqM7vwq56Isig" name="main" staticOperation="true">
-      <modelElement href="FredsLunch.uml#_v7lzUH6KEeq6x-HpzU5qww"/>
-      <visibility xmi:id="_Yd6c3IiiEeqM7vwq56Isig" label="+"/>
-      <cardinality xmi:id="_Yd6c3YiiEeqM7vwq56Isig" label="1" max="1" min="1"/>
-      <parameters xmi:id="_Yd6c3oiiEeqM7vwq56Isig" name="args">
-        <modelElement href="FredsLunch.uml#_v7lzUX6KEeq6x-HpzU5qww"/>
-        <cardinality xmi:id="_Yd6c34iiEeqM7vwq56Isig" label="1..*" max="-1" min="1"/>
-        <type xmi:id="_Yd6c4IiiEeqM7vwq56Isig" name="String">
-          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-        </type>
-      </parameters>
-    </operations>
-    <operations xmi:id="_Yd6c4YiiEeqM7vwq56Isig" name="setData">
-      <modelElement href="FredsLunch.uml#_FhD1AH6NEeq6x-HpzU5qww"/>
-      <visibility xmi:id="_Yd6c4oiiEeqM7vwq56Isig" label="+"/>
-      <cardinality xmi:id="_Yd6c44iiEeqM7vwq56Isig" label="1" max="1" min="1"/>
-      <outParameters xmi:id="_Yd6c5IiiEeqM7vwq56Isig">
-        <modelElement href="FredsLunch.uml#_FhD1An6NEeq6x-HpzU5qww"/>
-        <type xmi:id="_Yd6c5YiiEeqM7vwq56Isig" name="Data">
-          <modelElement href="FredsLunch.uml#_g0tNYH6CEeq6x-HpzU5qww"/>
-        </type>
-      </outParameters>
-      <parameters xmi:id="_Yd6c5oiiEeqM7vwq56Isig" name="data">
-        <modelElement href="FredsLunch.uml#_FhD1AX6NEeq6x-HpzU5qww"/>
-        <cardinality xmi:id="_Yd6c54iiEeqM7vwq56Isig" label="1" max="1" min="1"/>
-        <type xmi:id="_Yd6c6IiiEeqM7vwq56Isig" name="Data">
-          <modelElement href="FredsLunch.uml#_g0tNYH6CEeq6x-HpzU5qww"/>
-        </type>
-      </parameters>
-    </operations>
-  </nodes>
   <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_Ya3IwIiiEeqM7vwq56Isig" containment="_YapGUIiiEeqM7vwq56Isig" name="LunchList" package="_YY2WkIiiEeqM7vwq56Isig" associationsIn="_YVHtIIiiEeqM7vwq56Isig" associationsOut="_YZQmQIiiEeqM7vwq56Isig">
     <modelElement href="FredsLunch.uml#_s5_kMH6CEeq6x-HpzU5qww"/>
     <visualProperties xmi:id="_Ya3IwYiiEeqM7vwq56Isig" position="-189.0,290.0" size="168.0,122.0"/>
@@ -427,6 +342,91 @@
         <stereotypes xmi:id="_Yj4h4oiiEeqM7vwq56Isig"/>
       </type>
     </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_Yd6cwIiiEeqM7vwq56Isig" containment="_YcJiMIiiEeqM7vwq56Isig" name="Main" package="_YY2WkIiiEeqM7vwq56Isig" associationsOut="_S8YG0IiiEeqM7vwq56Isig _YU4ckIiiEeqM7vwq56Isig">
+    <modelElement href="FredsLunch.uml#_0nhQkH6CEeq6x-HpzU5qww"/>
+    <visualProperties xmi:id="_Yd6cwYiiEeqM7vwq56Isig" position="-155.0,93.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_Yd6cwoiiEeqM7vwq56Isig" label="+"/>
+    <attributes xmi:id="_Yd6cw4iiEeqM7vwq56Isig" defaultValue="null" name="data">
+      <modelElement href="FredsLunch.uml#_PaZLQH6FEeq6x-HpzU5qww"/>
+      <visibility xmi:id="_Yd6cxIiiEeqM7vwq56Isig" label="+"/>
+      <cardinality xmi:id="_Yd6cxYiiEeqM7vwq56Isig" label="0..1" max="1"/>
+      <type xmi:id="_Yd6cxoiiEeqM7vwq56Isig" name="Data">
+        <modelElement href="FredsLunch.uml#_g0tNYH6CEeq6x-HpzU5qww"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Yd6cx4iiEeqM7vwq56Isig" name="lunchCSV">
+      <modelElement href="FredsLunch.uml#_PaaZYH6FEeq6x-HpzU5qww"/>
+      <visibility xmi:id="_Yd6cyIiiEeqM7vwq56Isig" label="+"/>
+      <cardinality xmi:id="_Yd6cyYiiEeqM7vwq56Isig" label="*" max="-1"/>
+      <type xmi:id="_Yd6cyoiiEeqM7vwq56Isig" name="LunchCSV">
+        <modelElement href="FredsLunch.uml#_TXnWIH6CEeq6x-HpzU5qww"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Yd6cy4iiEeqM7vwq56Isig" name="accountName">
+      <modelElement href="FredsLunch.uml#_o7h70H6IEeq6x-HpzU5qww"/>
+      <stereotypes xmi:id="_Yd6czIiiEeqM7vwq56Isig" name="LegacyStyledElement">
+        <modelElement href="FredsLunch.uml#_o7ii4H6IEeq6x-HpzU5qww"/>
+      </stereotypes>
+      <visibility xmi:id="_Yd6czYiiEeqM7vwq56Isig" label="+"/>
+      <cardinality xmi:id="_Yd6czoiiEeqM7vwq56Isig" label="1" max="1" min="1"/>
+      <type xmi:id="_Yd6cz4iiEeqM7vwq56Isig" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_Yd6c0IiiEeqM7vwq56Isig" name="getAccountName">
+      <modelElement href="FredsLunch.uml#_o7eRcH6IEeq6x-HpzU5qww"/>
+      <visibility xmi:id="_Yd6c0YiiEeqM7vwq56Isig" label="+"/>
+      <cardinality xmi:id="_Yd6c0oiiEeqM7vwq56Isig" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Yd6c04iiEeqM7vwq56Isig">
+        <modelElement href="FredsLunch.uml#_o7gtsH6IEeq6x-HpzU5qww"/>
+        <type xmi:id="_Yd6c1IiiEeqM7vwq56Isig" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_Yd6c1YiiEeqM7vwq56Isig" name="setAccountName">
+      <modelElement href="FredsLunch.uml#_o7gGoH6IEeq6x-HpzU5qww"/>
+      <visibility xmi:id="_Yd6c1oiiEeqM7vwq56Isig" label="+"/>
+      <cardinality xmi:id="_Yd6c14iiEeqM7vwq56Isig" label="1" max="1" min="1"/>
+      <parameters xmi:id="_Yd6c2IiiEeqM7vwq56Isig" name="accountName">
+        <modelElement href="FredsLunch.uml#_o7gGoX6IEeq6x-HpzU5qww"/>
+        <cardinality xmi:id="_Yd6c2YiiEeqM7vwq56Isig" label="1" max="1" min="1"/>
+        <type xmi:id="_Yd6c2oiiEeqM7vwq56Isig" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Yd6c24iiEeqM7vwq56Isig" name="main" staticOperation="true">
+      <modelElement href="FredsLunch.uml#_v7lzUH6KEeq6x-HpzU5qww"/>
+      <visibility xmi:id="_Yd6c3IiiEeqM7vwq56Isig" label="+"/>
+      <cardinality xmi:id="_Yd6c3YiiEeqM7vwq56Isig" label="1" max="1" min="1"/>
+      <parameters xmi:id="_Yd6c3oiiEeqM7vwq56Isig" name="args">
+        <modelElement href="FredsLunch.uml#_v7lzUX6KEeq6x-HpzU5qww"/>
+        <cardinality xmi:id="_Yd6c34iiEeqM7vwq56Isig" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_Yd6c4IiiEeqM7vwq56Isig" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Yd6c4YiiEeqM7vwq56Isig" name="setData">
+      <modelElement href="FredsLunch.uml#_FhD1AH6NEeq6x-HpzU5qww"/>
+      <visibility xmi:id="_Yd6c4oiiEeqM7vwq56Isig" label="+"/>
+      <cardinality xmi:id="_Yd6c44iiEeqM7vwq56Isig" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Yd6c5IiiEeqM7vwq56Isig">
+        <modelElement href="FredsLunch.uml#_FhD1An6NEeq6x-HpzU5qww"/>
+        <type xmi:id="_Yd6c5YiiEeqM7vwq56Isig" name="Data">
+          <modelElement href="FredsLunch.uml#_g0tNYH6CEeq6x-HpzU5qww"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Yd6c5oiiEeqM7vwq56Isig" name="data">
+        <modelElement href="FredsLunch.uml#_FhD1AX6NEeq6x-HpzU5qww"/>
+        <cardinality xmi:id="_Yd6c54iiEeqM7vwq56Isig" label="1" max="1" min="1"/>
+        <type xmi:id="_Yd6c6IiiEeqM7vwq56Isig" name="Data">
+          <modelElement href="FredsLunch.uml#_g0tNYH6CEeq6x-HpzU5qww"/>
+        </type>
+      </parameters>
+    </operations>
   </nodes>
   <requiredModelsLocators xmi:id="_Ng7nQIihEeqM7vwq56Isig" location="/FredsLunch-Java/FredsLunch.uml"/>
 </com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

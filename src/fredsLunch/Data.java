@@ -2,6 +2,24 @@ package fredsLunch;
 import java.util.Set;
 import java.util.HashSet;
 
+
+/* ****************************************************************************************************************************************************************
+ * CRC Card: FredsLunch:Data
+ * ----------------------------------------------------------------------------------------------------------------------------------------------------------------
+ * Responsibilities:                                                     		| Collaborators:
+ * ----------------------------------------------------------------------------------------------------------------------------------------------------------------
+ * 	Anchor the lunch list and member lists.   									| 
+ * 																				| LunchCSV
+ *  Turn header column list into a list of members of the group.				| LunchList
+ * 	Recognize incoming balance for each member.									| MemberList
+ * 	Turn each row into a lunch in the lunch list.								| Member
+ * 	For each lunch find the members eating and update the balances.           	| Lunch
+ * 	Add or remove lunches and members											| Participant
+ * 	Produce reports as needed.													|
+ * 	Save the data file.															|
+ *****************************************************************************************************************************************************************/
+
+
 public class Data {
 /**
  * <pre>
